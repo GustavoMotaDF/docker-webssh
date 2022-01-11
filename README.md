@@ -15,7 +15,7 @@ To start a container from this image:
 
 
 ``` bash
-$ git clone project
+$ git clone //project//
 
 $ docker build -t snsyzb/webssh-arm64b8 .
 
