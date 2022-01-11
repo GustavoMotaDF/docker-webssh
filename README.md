@@ -11,7 +11,9 @@ A simple web SSH client. Written in Python.
 
 ## How to use
 To start a container from this image:
-git clone project
+
+$ git clone project
+
 ``` bash
 $ docker build -t snsyzb/webssh-arm64b8 .
 
