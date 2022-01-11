@@ -1,5 +1,5 @@
-# Version 0.0.2
-FROM 
+# Version 0.0.1
+FROM arm64v8/ubuntu
 RUN apt-get update && apt-get install -y python3.4 python3-pip
 RUN pip3 install webssh
 EXPOSE 8080
