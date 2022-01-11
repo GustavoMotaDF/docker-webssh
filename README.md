@@ -1,4 +1,4 @@
-# docker-webssh
+# docker-webssh - ARM64V8
 Run webssh in docker
 
 ## [docker](http://www.docker.com)
@@ -8,9 +8,13 @@ Honestly, I am also studying it, can not say much but really a cool tool you wil
 ## [webssh](https://github.com/huashengdun/webssh)
 A simple web SSH client. Written in Python.
 
+
 ## How to use
 To start a container from this image:
+
 ``` bash
-$ docker run -d -p 8080:8080 snsyzb/webssh
+docker build -t snsyzb/webssh-arm64b8 .
+
+$ docker run -d -p 8080:8080 snsyzb/webssh-arm64b8
 ```
 The container will start a web application on 8080 port, so you can visit your own ssh client web application via openning localhost:8080 in your browser.
