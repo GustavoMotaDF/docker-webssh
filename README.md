@@ -21,6 +21,6 @@ $ cd docker-webssh
 
 $ docker build -t snsyzb/webssh-arm64v8 .
 
-$ docker run --name webssh -d -p 8080:8080 snsyzb/webssh-arm64v8
+$ docker run -d --name webssh -p 8080:8080 snsyzb/webssh-arm64v8
 ```
 The container will start a web application on 8080 port, so you can visit your own ssh client web application via openning localhost:8080 in your browser.
