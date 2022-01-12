@@ -15,7 +15,7 @@ To start a container from this image:
 
 
 ``` bash
-$ git clone https://github.com/GustavoMotaDF/docker-webssh.git
+$ git clone https://github.com/GustavoMotaDF/docker-webssh-arm64v8.git
 
 $ cd docker-webssh
 
