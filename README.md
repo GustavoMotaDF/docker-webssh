@@ -1,5 +1,5 @@
 # docker-webssh - ARM64V8
-Run webssh in docker
+Run webssh in docker, version arm64v8 (raspberry)
 
 ## [docker](http://www.docker.com)
 Don't know? I am pretty sure this project is not what you are looking for. Just skip it. 
@@ -15,9 +15,11 @@ To start a container from this image:
 
 
 ``` bash
-$ git clone //project//
+$ git clone https://github.com/GustavoMotaDF/docker-webssh.git
 
-$ docker build -t snsyzb/webssh-arm6vb8 .
+$ cd docker-webssh
+
+$ docker build -t snsyzb/webssh-arm64v8 .
 
 $ docker run --name webssh -d -p 8080:8080 snsyzb/webssh-arm64v8
 ```
